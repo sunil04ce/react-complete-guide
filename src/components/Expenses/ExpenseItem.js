@@ -6,11 +6,11 @@ import Card from '../UI/Card';
 const ExpenseItem = (props) => {
 
     const [title, setTitle] = useState(props.title);
-    console.log('ExpenseItem is evealuted by React....');
+    //console.log('ExpenseItem is evealuted by React....');
 
     const clickHandler = () => {
         setTitle('Hi');
-        console.log(title);
+        //console.log(title);
     }
     return (
         <Card className="expense-item">

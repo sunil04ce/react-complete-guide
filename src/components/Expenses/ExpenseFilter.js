@@ -12,6 +12,7 @@ const ExpenseFilter = (props) => {
                     Filter By Year
                 </label>
                 <select value={props.selected} onChange={yearSelectionHandler}>
+                    <option value='all'>Show All</option>
                     <option value='2023'>2023</option>
                     <option value='2022'>2022</option>
                     <option value='2021'>2021</option>

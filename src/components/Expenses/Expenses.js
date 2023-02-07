@@ -21,7 +21,6 @@ const Expenses = (props) => {
             return item.date.getFullYear().toString() === filteredYear;
     });
 
-
     return (
         <>
             <Card className="expenses">
